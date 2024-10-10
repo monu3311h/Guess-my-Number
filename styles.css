@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+body {
+  font-family: sans-serif;
+  background-color: #000;
+  text-align: center;
+  font-family: 'Tilt Prism', cursive;
+
+}
+/* Top Content  */
+.top-content{
+  display: flex;
+  margin: 20px;
+
+
+}
+.top-right{
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  
+}
+.top-left{
+  margin: 20px;
+
+}
+p{
+  color: #fff;
+}
+.btn{
+  border:none;
+  background-color: #fff;
+  padding:10px 30px;
+  font-size: 20px;
+  color: #000;
+  font-family: 'Tilt Prism', cursive;
+
+}
+.btn:active{
+  transform: scale(0.98);
+}
+/* medium-content */
+h1{
+  color: #fff;
+  font-size: 50px;
+}
+.content{
+  background-color: #fff;
+  position: relative;
+  padding: 30px;
+  margin: 120px 600px;
+  font-size: 60px;
+}
+heading{
+  font-size: 50px;
+}
+
+.empty{
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left:0%;
+  width: 100%;
+  height: 10px;
+  z-index: -1;
+}
+
+/* bottom-content */
+.bottom-content{
+  position: relative;
+
+}
+
+input{
+  background-color: #000;
+  position: absolute;
+  top: 5%;
+left: 0;
+border: #fff solid;
+
+padding: 50px 30px;
+margin: 20px;
+font-size: 40px;
+text-align: center;
+color: #fff;
+
+}
+.num-btn{
+  margin: 30px;
+  position: absolute;
+  top: 170px;
+  left: 70px;
+  border:none;
+  background-color: #fff;
+  padding:10px 30px;
+  font-size: 20px;
+  color: #000;
+  font-family: 'Tilt Prism', cursive;
+  
+}
+.num-btn:active{
+  transform: scale(0.98);
+}
+
+#bottom-right{
+  position: absolute;
+  color: #fff;
+  font-size: 40px;
+  right: 200px;
+}
